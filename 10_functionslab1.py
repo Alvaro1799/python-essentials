@@ -10,12 +10,17 @@ The code uses two lists ‒ one with the test data, and the other containing the
 '''
 
 def is_year_leap(year):
-    #
-    # Write your code here.
-    #
+    if year % 400 == 0:
+        return True
+    elif year % 100 == 0:
+        return False
+    elif year % 4 == 0:
+        return True
+    else:
+        return False
 
-test_data = [1900, 2000, 2016, 1987]
-test_results = [False, True, True, False]
+test_data = [1900, 2000, 2016, 1987,2400,1800]
+test_results = [False, True, True, False,True,False]
 for i in range(len(test_data)):
     yr = test_data[i]
     print(yr,"->",end="")
