@@ -1,6 +1,8 @@
 # Python Essentials — mi aprendizaje con Cisco PE1
 
-Este repo reúne los ejercicios, labs y notas que voy escribiendo mientras aprendo Python con el curso **Cisco Python Essentials (PE1)**. PE1 está casi terminado — de aquí sigo directo a **PE2** (OOP, archivos, excepciones).
+Este repo reúne los ejercicios, labs y notas que voy escribiendo mientras aprendo Python con el curso **Cisco Python Essentials (PE1)**. PE1 ya está terminado — de aquí sigo directo a **PE2** (OOP, archivos, excepciones).
+
+> 📝 **[Ejercicios de práctica por categoría](ejercicios/)** — 7 documentos (uno por tema) con tres niveles cada uno: fácil, medio y difícil. Requisitos, ejemplos de ejecución y pistas, sin soluciones.
 
 Cada archivo corresponde a un tema del curso; los que incluyen `lab` en el nombre son ejercicios aplicados, y los que dicen `summary` son notas de repaso con ejemplos ejecutables.
 
@@ -66,6 +68,10 @@ Cada archivo corresponde a un tema del curso; los que incluyen `lab` en el nombr
 | [10_functionsmy.py](10_functionsmy.py) | Función simple sin parámetros |
 | [10_functionsmy2.py](10_functionsmy2.py) | Parámetros vs. variables con el mismo nombre |
 | [10_functionssummary.py](10_functionssummary.py) | Notas resumen: parámetros posicionales, con nombre y valores por defecto |
+
+## Práctica de repaso
+
+[`ejercicios/`](ejercicios/) — ejercicios propios para consolidar PE1 antes de entrar a PE2, organizados por categoría y por dificultad.
 
 ## Próximos pasos
 
